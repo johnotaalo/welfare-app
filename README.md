@@ -6,4 +6,4 @@ This is a software that helps with managing a welfare group. The intention is to
 
 The application is built on Laravel 8, Vue 2 and MySQL.
 
-__More to follow
+__ More to follow
