@@ -29,12 +29,23 @@ class RouteServiceProvider extends ServiceProvider
         $this->configureRateLimiting();
 
         $this->routes(function () {
-            Route::middleware('web')
-                ->group(base_path('routes/web.php'));
+            foreach ($this->centralDomains() as $domain) {
+                Route::middleware('web')
+                    ->domain($domain)
+                    ->namespace($this->namespace)
+                    ->group(base_path('routes/web.php'));
+            }
 
-            Route::prefix('api')
-                ->middleware('api')
-                ->group(base_path('routes/api.php'));
+            foreach ($this->centralDomains() as $domain) {
+                Route::prefix('api')
+                    ->domain($domain)
+                    ->middleware('api')
+                    ->namespace($this->namespace)
+                    ->group(base_path('routes/api.php'));
+            }
+
+//            Route::middleware("tenant")
+//                ->group(base_path('routes/tenant.php'));
         });
     }
 
@@ -48,5 +59,9 @@ class RouteServiceProvider extends ServiceProvider
         RateLimiter::for('api', function (Request $request) {
             return Limit::perMinute(60);
         });
+    }
+
+    protected function centralDomains() : array {
+        return config('tenancy.central_domains', []);
     }
 }
