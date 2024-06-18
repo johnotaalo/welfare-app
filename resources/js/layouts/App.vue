@@ -11,8 +11,8 @@
                     </div>
                     <!--begin::Logo image-->
                     <a href="/">
-                        <img alt="Logo" :src="assetURL + 'common/logo.svg'" class="h-25px theme-light-show" />
-                        <img alt="Logo" :src="assetURL + 'common/logo.svg'" class="h-25px theme-dark-show" />
+                        <img alt="Logo" src="/common/logo.svg" class="h-25px theme-light-show" />
+                        <img alt="Logo" src="/common/logo.svg" class="h-25px theme-dark-show" />
                     </a>
                     <!--end::Logo image-->
                 </div>
@@ -646,8 +646,8 @@
                 <div class="app-sidebar-logo flex-shrink-0 d-none d-md-flex flex-center align-items-center" id="kt_app_sidebar_logo">
                     <!--begin::Logo-->
                     <a href="/">
-                        <img alt="Logo" :src="assetURL + 'common/logo.svg'" class="h-25px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
-                        <img alt="Logo" :src="assetURL + 'common/logo.svg'" class="h-25px theme-dark-show" />
+                        <img alt="Logo" src="/common/logo.svg" class="h-25px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
+                        <img alt="Logo" src="/common/logo.svg" class="h-25px theme-dark-show" />
                     </a>
                     <!--end::Logo-->
                     <!--begin::Aside toggle-->
@@ -781,7 +781,7 @@
                         <!--begin::User info-->
                         <div class="d-flex align-items-center" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-overflow="true" data-kt-menu-placement="top-start">
                             <div class="d-flex flex-center cursor-pointer symbol symbol-circle symbol-40px">
-                                <img :src="assetURL + 'backend/assets/media/avatars/300-1.jpg'" alt="image" />
+                                <img src="/backend/assets/media/avatars/300-1.jpg" alt="image" />
                             </div>
                             <!--begin::Name-->
                             <div class="d-flex flex-column align-items-start justify-content-center ms-3">
@@ -798,7 +798,7 @@
                                 <div class="menu-content d-flex align-items-center px-3">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-50px me-5">
-                                        <img alt="Logo" :src="assetURL + 'backend/assets/media/avatars/300-1.jpg'" />
+                                        <img alt="Logo" src="/backend/assets/media/avatars/300-1.jpg" />
                                     </div>
                                     <!--end::Avatar-->
                                     <!--begin::Username-->

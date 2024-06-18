@@ -23,7 +23,17 @@ Route::middleware([
     InitializeTenancyByDomain::class,
     PreventAccessFromCentralDomains::class,
 ])->group(function () {
-    Route::get('/', function () {
-        return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
-    });
+//    Route::get('/', function () {
+//        return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
+//    })->middleware("auth");
+
+    Auth::routes();
+
+    Route::get('/{any}', [\App\Http\Controllers\Tenants\AppController::class, 'index'])
+        ->where('any', '.*')
+        ->name('default')->middleware("auth");
+
+    Route::get("/home", function(){
+        return "This is the home for: " . tenant("name");
+    })->middleware("auth");
 });

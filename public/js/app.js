@@ -10484,7 +10484,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nbody[data-v-9087fe26]{\n    background-color: red;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nbody[data-v-9087fe26]{\r\n    background-color: red;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28518,2218 +28518,25 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      {
-        staticClass: "app-header",
-        attrs: {
-          id: "kt_app_header",
-          "data-kt-sticky": "true",
-          "data-kt-sticky-activate": "{default: true, lg: true}",
-          "data-kt-sticky-name": "app-header-minimize",
-          "data-kt-sticky-animation": "false",
-          "data-kt-sticky-offset": "{default: '0px', lg: '0px'}",
-        },
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass:
-              "app-container container-fluid d-flex align-items-stretch flex-stack mt-lg-8",
-            attrs: { id: "kt_app_header_container" },
-          },
-          [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "d-flex align-items-center d-block d-lg-none ms-n3",
-                attrs: { title: "Show sidebar menu" },
-              },
-              [
-                _vm._m(0),
-                _vm._v(" "),
-                _c("a", { attrs: { href: "/" } }, [
-                  _c("img", {
-                    staticClass: "h-25px theme-light-show",
-                    attrs: {
-                      alt: "Logo",
-                      src: _vm.assetURL + "common/logo.svg",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "h-25px theme-dark-show",
-                    attrs: {
-                      alt: "Logo",
-                      src: _vm.assetURL + "common/logo.svg",
-                    },
-                  }),
-                ]),
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(1),
-          ]
-        ),
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "app-wrapper flex-column flex-row-fluid",
-        attrs: { id: "kt_app_wrapper" },
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass:
-              "app-sidebar flex-column mt-lg-4 ps-2 pe-2 ps-lg-7 pe-lg-4",
-            attrs: {
-              id: "kt_app_sidebar",
-              "data-kt-drawer": "true",
-              "data-kt-drawer-name": "app-sidebar",
-              "data-kt-drawer-activate": "{default: true, lg: false}",
-              "data-kt-drawer-overlay": "true",
-              "data-kt-drawer-width": "250px",
-              "data-kt-drawer-direction": "start",
-              "data-kt-drawer-toggle": "#kt_app_sidebar_mobile_toggle",
-            },
-          },
-          [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "app-sidebar-logo flex-shrink-0 d-none d-md-flex flex-center align-items-center",
-                attrs: { id: "kt_app_sidebar_logo" },
-              },
-              [
-                _c("a", { attrs: { href: "/" } }, [
-                  _c("img", {
-                    staticClass:
-                      "h-25px d-none d-sm-inline app-sidebar-logo-default theme-light-show",
-                    attrs: {
-                      alt: "Logo",
-                      src: _vm.assetURL + "common/logo.svg",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "h-25px theme-dark-show",
-                    attrs: {
-                      alt: "Logo",
-                      src: _vm.assetURL + "common/logo.svg",
-                    },
-                  }),
-                ]),
-                _vm._v(" "),
-                _vm._m(2),
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(3),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "app-sidebar-footer d-flex align-items-center px-8 pb-10",
-                attrs: { id: "kt_app_sidebar_footer" },
-              },
-              [
-                _c("div", {}, [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "d-flex align-items-center",
-                      attrs: {
-                        "data-kt-menu-trigger":
-                          "{default: 'click', lg: 'hover'}",
-                        "data-kt-menu-overflow": "true",
-                        "data-kt-menu-placement": "top-start",
-                      },
-                    },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass:
-                            "d-flex flex-center cursor-pointer symbol symbol-circle symbol-40px",
-                        },
-                        [
-                          _c("img", {
-                            attrs: {
-                              src:
-                                _vm.assetURL +
-                                "backend/assets/media/avatars/300-1.jpg",
-                              alt: "image",
-                            },
-                          }),
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _vm._m(4),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px",
-                      attrs: { "data-kt-menu": "true" },
-                    },
-                    [
-                      _c("div", { staticClass: "menu-item px-3" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "menu-content d-flex align-items-center px-3",
-                          },
-                          [
-                            _c(
-                              "div",
-                              { staticClass: "symbol symbol-50px me-5" },
-                              [
-                                _c("img", {
-                                  attrs: {
-                                    alt: "Logo",
-                                    src:
-                                      _vm.assetURL +
-                                      "backend/assets/media/avatars/300-1.jpg",
-                                  },
-                                }),
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _vm._m(5),
-                          ]
-                        ),
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "separator my-2" }),
-                      _vm._v(" "),
-                      _vm._m(6),
-                      _vm._v(" "),
-                      _vm._m(7),
-                      _vm._v(" "),
-                      _vm._m(8),
-                      _vm._v(" "),
-                      _vm._m(9),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "separator my-2" }),
-                      _vm._v(" "),
-                      _vm._m(10),
-                      _vm._v(" "),
-                      _vm._m(11),
-                      _vm._v(" "),
-                      _vm._m(12),
-                      _vm._v(" "),
-                      _vm._m(13),
-                    ]
-                  ),
-                ]),
-              ]
-            ),
-          ]
-        ),
-        _vm._v(" "),
-        _vm._m(14),
-      ]
-    ),
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "btn btn-icon btn-active-color-primary w-35px h-35px me-1",
-        attrs: { id: "kt_app_sidebar_mobile_toggle" },
-      },
-      [_c("i", { staticClass: "ki-outline ki-abstract-14 fs-2" })]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "app-navbar flex-lg-grow-1",
-        attrs: { id: "kt_app_header_navbar" },
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass:
-              "app-navbar-item d-flex align-items-stretch flex-lg-grow-1 me-1 me-lg-0",
-          },
-          [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "header-search d-flex align-items-center w-lg-275px",
-                attrs: {
-                  id: "kt_header_search",
-                  "data-kt-search-keypress": "true",
-                  "data-kt-search-min-length": "2",
-                  "data-kt-search-enter": "enter",
-                  "data-kt-search-layout": "menu",
-                  "data-kt-search-responsive": "true",
-                  "data-kt-menu-trigger": "auto",
-                  "data-kt-menu-permanent": "true",
-                  "data-kt-menu-placement": "bottom-start",
-                },
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "search-toggle-mobile d-flex d-lg-none align-items-center",
-                    attrs: { "data-kt-search-element": "toggle" },
-                  },
-                  [
-                    _c("div", { staticClass: "d-flex" }, [
-                      _c("i", { staticClass: "ki-outline ki-magnifier fs-1" }),
-                    ]),
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "form",
-                  {
-                    staticClass:
-                      "d-none d-lg-block w-100 position-relative mb-5 mb-lg-0",
-                    attrs: {
-                      "data-kt-search-element": "form",
-                      autocomplete: "off",
-                    },
-                  },
-                  [
-                    _c("input", { attrs: { type: "hidden" } }),
-                    _vm._v(" "),
-                    _c("i", {
-                      staticClass:
-                        "ki-outline ki-magnifier search-icon fs-2 text-gray-500 position-absolute top-50 translate-middle-y ms-5",
-                    }),
-                    _vm._v(" "),
-                    _c("input", {
-                      staticClass:
-                        "search-input form-control form-control-solid ps-13",
-                      attrs: {
-                        type: "text",
-                        name: "search",
-                        value: "",
-                        placeholder: "Search...",
-                        "data-kt-search-element": "input",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "span",
-                      {
-                        staticClass:
-                          "search-spinner position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5",
-                        attrs: { "data-kt-search-element": "spinner" },
-                      },
-                      [
-                        _c("span", {
-                          staticClass:
-                            "spinner-border h-15px w-15px align-middle text-gray-500",
-                        }),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "span",
-                      {
-                        staticClass:
-                          "search-reset btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4",
-                        attrs: { "data-kt-search-element": "clear" },
-                      },
-                      [
-                        _c("i", {
-                          staticClass: "ki-outline ki-cross fs-2 fs-lg-1 me-0",
-                        }),
-                      ]
-                    ),
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "menu menu-sub menu-sub-dropdown py-7 px-7 overflow-hidden w-300px w-md-350px",
-                    attrs: { "data-kt-search-element": "content" },
-                  },
-                  [
-                    _c(
-                      "div",
-                      { attrs: { "data-kt-search-element": "wrapper" } },
-                      [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "d-none",
-                            attrs: { "data-kt-search-element": "results" },
-                          },
-                          [
-                            _c(
-                              "div",
-                              { staticClass: "scroll-y mh-200px mh-lg-350px" },
-                              [
-                                _c(
-                                  "h3",
-                                  {
-                                    staticClass: "fs-5 text-muted m-0 pb-5",
-                                    attrs: {
-                                      "data-kt-search-element":
-                                        "category-title",
-                                    },
-                                  },
-                                  [_vm._v("Users")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c("img", {
-                                          attrs: {
-                                            src: "assets/media/avatars/300-6.jpg",
-                                            alt: "",
-                                          },
-                                        }),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Karina Clark")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Marketing Manager")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c("img", {
-                                          attrs: {
-                                            src: "assets/media/avatars/300-2.jpg",
-                                            alt: "",
-                                          },
-                                        }),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Olivia Bold")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Software Engineer")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c("img", {
-                                          attrs: {
-                                            src: "assets/media/avatars/300-9.jpg",
-                                            alt: "",
-                                          },
-                                        }),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Ana Clark")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("UI/UX Designer")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c("img", {
-                                          attrs: {
-                                            src: "assets/media/avatars/300-14.jpg",
-                                            alt: "",
-                                          },
-                                        }),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Nick Pitola")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Art Director")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c("img", {
-                                          attrs: {
-                                            src: "assets/media/avatars/300-11.jpg",
-                                            alt: "",
-                                          },
-                                        }),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Edward Kulnic")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("System Administrator")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "h3",
-                                  {
-                                    staticClass:
-                                      "fs-5 text-muted m-0 pt-5 pb-5",
-                                    attrs: {
-                                      "data-kt-search-element":
-                                        "category-title",
-                                    },
-                                  },
-                                  [_vm._v("Customers")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("img", {
-                                              staticClass: "w-20px h-20px",
-                                              attrs: {
-                                                src: "assets/media/svg/brand-logos/volicity-9.svg",
-                                                alt: "",
-                                              },
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Company Rbranding")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("UI Design")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("img", {
-                                              staticClass: "w-20px h-20px",
-                                              attrs: {
-                                                src: "assets/media/svg/brand-logos/tvit.svg",
-                                                alt: "",
-                                              },
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Company Re-branding")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Web Development")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("img", {
-                                              staticClass: "w-20px h-20px",
-                                              attrs: {
-                                                src: "assets/media/svg/misc/infography.svg",
-                                                alt: "",
-                                              },
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Business Analytics App")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Administration")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("img", {
-                                              staticClass: "w-20px h-20px",
-                                              attrs: {
-                                                src: "assets/media/svg/brand-logos/leaf.svg",
-                                                alt: "",
-                                              },
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("EcoLeaf App Launch")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Marketing")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("img", {
-                                              staticClass: "w-20px h-20px",
-                                              attrs: {
-                                                src: "assets/media/svg/brand-logos/tower.svg",
-                                                alt: "",
-                                              },
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-column justify-content-start fw-semibold",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Tower Group Website")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("Google Adwords")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "h3",
-                                  {
-                                    staticClass:
-                                      "fs-5 text-muted m-0 pt-5 pb-5",
-                                    attrs: {
-                                      "data-kt-search-element":
-                                        "category-title",
-                                    },
-                                  },
-                                  [_vm._v("Projects")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-notepad fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Si-Fi Project by AU Themes")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("#45670")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-frame fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Shopix Mobile App Planning")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("#45690")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-message-text-2 fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [
-                                            _vm._v(
-                                              "Finance Monitoring SAAS Discussion"
-                                            ),
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("#21090")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
-                                    attrs: { href: "#" },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-profile-circle fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "span",
-                                          { staticClass: "fs-6 fw-semibold" },
-                                          [_vm._v("Dashboard Analitics Launch")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 fw-semibold text-muted",
-                                          },
-                                          [_vm._v("#34560")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                              ]
-                            ),
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { attrs: { "data-kt-search-element": "main" } },
-                          [
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "d-flex flex-stack fw-semibold mb-4",
-                              },
-                              [
-                                _c(
-                                  "span",
-                                  { staticClass: "text-muted fs-6 me-2" },
-                                  [_vm._v("Recently Searched:")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass: "d-flex",
-                                    attrs: {
-                                      "data-kt-search-element": "toolbar",
-                                    },
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "btn btn-icon w-20px btn-sm btn-active-color-primary me-2 data-bs-toggle=",
-                                        attrs: {
-                                          "data-kt-search-element":
-                                            "preferences-show",
-                                          title: "Show search preferences",
-                                        },
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass:
-                                            "ki-outline ki-setting-2 fs-2",
-                                        }),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "btn btn-icon w-20px btn-sm btn-active-color-primary me-n1",
-                                        attrs: {
-                                          "data-kt-search-element":
-                                            "advanced-options-form-show",
-                                          "data-bs-toggle": "tooltip",
-                                          title: "Show more search options",
-                                        },
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass:
-                                            "ki-outline ki-down fs-2",
-                                        }),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "div",
-                              { staticClass: "scroll-y mh-200px mh-lg-325px" },
-                              [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-laptop fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v("BoomApp by Keenthemes")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#45789")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-chart-simple fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v('"Kept API Project Meeting')]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#84050")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-chart fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v('"KPI Monitoring App Launch')]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#84250")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-chart-line-down fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v("Project Reference FAQ")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#67945")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-sms fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v('"FitPro App Development')]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#84250")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-bank fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v("Shopix Mobile App")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#45690")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex align-items-center mb-5",
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass: "symbol symbol-40px me-4",
-                                      },
-                                      [
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "symbol-label bg-light",
-                                          },
-                                          [
-                                            _c("i", {
-                                              staticClass:
-                                                "ki-outline ki-chart-line-down fs-2 text-primary",
-                                            }),
-                                          ]
-                                        ),
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "d-flex flex-column" },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            staticClass:
-                                              "fs-6 text-gray-800 text-hover-primary fw-semibold",
-                                            attrs: { href: "#" },
-                                          },
-                                          [_vm._v('"Landing UI Design" Launch')]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          {
-                                            staticClass:
-                                              "fs-7 text-muted fw-semibold",
-                                          },
-                                          [_vm._v("#24005")]
-                                        ),
-                                      ]
-                                    ),
-                                  ]
-                                ),
-                              ]
-                            ),
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass: "text-center d-none",
-                            attrs: { "data-kt-search-element": "empty" },
-                          },
-                          [
-                            _c("div", { staticClass: "pt-10 pb-10" }, [
-                              _c("i", {
-                                staticClass:
-                                  "ki-outline ki-search-list fs-4x opacity-50",
-                              }),
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "pb-15 fw-semibold" }, [
-                              _c(
-                                "h3",
-                                { staticClass: "text-gray-600 fs-5 mb-2" },
-                                [_vm._v("No result found")]
-                              ),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "text-muted fs-7" }, [
-                                _vm._v(
-                                  "Please try again with a different query"
-                                ),
-                              ]),
-                            ]),
-                          ]
-                        ),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "form",
-                      {
-                        staticClass: "pt-1 d-none",
-                        attrs: {
-                          "data-kt-search-element": "advanced-options-form",
-                        },
-                      },
-                      [
-                        _c(
-                          "h3",
-                          { staticClass: "fw-semibold text-gray-900 mb-7" },
-                          [_vm._v("Advanced Search")]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "mb-5" }, [
-                          _c("input", {
-                            staticClass:
-                              "form-control form-control-sm form-control-solid",
-                            attrs: {
-                              type: "text",
-                              placeholder: "Contains the word",
-                              name: "query",
-                            },
-                          }),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "mb-5" }, [
-                          _c(
-                            "div",
-                            { staticClass: "nav-group nav-group-fluid" },
-                            [
-                              _c("label", [
-                                _c("input", {
-                                  staticClass: "btn-check",
-                                  attrs: {
-                                    type: "radio",
-                                    name: "type",
-                                    value: "has",
-                                    checked: "checked",
-                                  },
-                                }),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-color-muted btn-active btn-active-primary",
-                                  },
-                                  [_vm._v("All")]
-                                ),
-                              ]),
-                              _vm._v(" "),
-                              _c("label", [
-                                _c("input", {
-                                  staticClass: "btn-check",
-                                  attrs: {
-                                    type: "radio",
-                                    name: "type",
-                                    value: "users",
-                                  },
-                                }),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
-                                  },
-                                  [_vm._v("Users")]
-                                ),
-                              ]),
-                              _vm._v(" "),
-                              _c("label", [
-                                _c("input", {
-                                  staticClass: "btn-check",
-                                  attrs: {
-                                    type: "radio",
-                                    name: "type",
-                                    value: "orders",
-                                  },
-                                }),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
-                                  },
-                                  [_vm._v("Orders")]
-                                ),
-                              ]),
-                              _vm._v(" "),
-                              _c("label", [
-                                _c("input", {
-                                  staticClass: "btn-check",
-                                  attrs: {
-                                    type: "radio",
-                                    name: "type",
-                                    value: "projects",
-                                  },
-                                }),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
-                                  },
-                                  [_vm._v("Projects")]
-                                ),
-                              ]),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "mb-5" }, [
-                          _c("input", {
-                            staticClass:
-                              "form-control form-control-sm form-control-solid",
-                            attrs: {
-                              type: "text",
-                              name: "assignedto",
-                              placeholder: "Assigned to",
-                              value: "",
-                            },
-                          }),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "mb-5" }, [
-                          _c("input", {
-                            staticClass:
-                              "form-control form-control-sm form-control-solid",
-                            attrs: {
-                              type: "text",
-                              name: "collaborators",
-                              placeholder: "Collaborators",
-                              value: "",
-                            },
-                          }),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "mb-5" }, [
-                          _c(
-                            "div",
-                            { staticClass: "nav-group nav-group-fluid" },
-                            [
-                              _c("label", [
-                                _c("input", {
-                                  staticClass: "btn-check",
-                                  attrs: {
-                                    type: "radio",
-                                    name: "attachment",
-                                    value: "has",
-                                    checked: "checked",
-                                  },
-                                }),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-color-muted btn-active btn-active-primary",
-                                  },
-                                  [_vm._v("Has attachment")]
-                                ),
-                              ]),
-                              _vm._v(" "),
-                              _c("label", [
-                                _c("input", {
-                                  staticClass: "btn-check",
-                                  attrs: {
-                                    type: "radio",
-                                    name: "attachment",
-                                    value: "any",
-                                  },
-                                }),
-                                _vm._v(" "),
-                                _c(
-                                  "span",
-                                  {
-                                    staticClass:
-                                      "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
-                                  },
-                                  [_vm._v("Any")]
-                                ),
-                              ]),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "mb-5" }, [
-                          _c(
-                            "select",
-                            {
-                              staticClass:
-                                "form-select form-select-sm form-select-solid",
-                              attrs: {
-                                name: "timezone",
-                                "aria-label": "Select a Timezone",
-                                "data-control": "select2",
-                                "data-dropdown-parent": "#kt_header_search",
-                                "data-placeholder": "date_period",
-                              },
-                            },
-                            [
-                              _c("option", { attrs: { value: "next" } }, [
-                                _vm._v("Within the next"),
-                              ]),
-                              _vm._v(" "),
-                              _c("option", { attrs: { value: "last" } }, [
-                                _vm._v("Within the last"),
-                              ]),
-                              _vm._v(" "),
-                              _c("option", { attrs: { value: "between" } }, [
-                                _vm._v("Between"),
-                              ]),
-                              _vm._v(" "),
-                              _c("option", { attrs: { value: "on" } }, [
-                                _vm._v("On"),
-                              ]),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "row mb-8" }, [
-                          _c("div", { staticClass: "col-6" }, [
-                            _c("input", {
-                              staticClass:
-                                "form-control form-control-sm form-control-solid",
-                              attrs: {
-                                type: "number",
-                                name: "date_number",
-                                placeholder: "Lenght",
-                                value: "",
-                              },
-                            }),
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "col-6" }, [
-                            _c(
-                              "select",
-                              {
-                                staticClass:
-                                  "form-select form-select-sm form-select-solid",
-                                attrs: {
-                                  name: "date_typer",
-                                  "aria-label": "Select a Timezone",
-                                  "data-control": "select2",
-                                  "data-dropdown-parent": "#kt_header_search",
-                                  "data-placeholder": "Period",
-                                },
-                              },
-                              [
-                                _c("option", { attrs: { value: "days" } }, [
-                                  _vm._v("Days"),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "weeks" } }, [
-                                  _vm._v("Weeks"),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "months" } }, [
-                                  _vm._v("Months"),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "years" } }, [
-                                  _vm._v("Years"),
-                                ]),
-                              ]
-                            ),
-                          ]),
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "d-flex justify-content-end" },
-                          [
-                            _c(
-                              "button",
-                              {
-                                staticClass:
-                                  "btn btn-sm btn-light fw-bold btn-active-light-primary me-2",
-                                attrs: {
-                                  type: "reset",
-                                  "data-kt-search-element":
-                                    "advanced-options-form-cancel",
-                                },
-                              },
-                              [_vm._v("Cancel")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass: "btn btn-sm fw-bold btn-primary",
-                                attrs: {
-                                  href: "utilities/search/horizontal.html",
-                                  "data-kt-search-element":
-                                    "advanced-options-form-search",
-                                },
-                              },
-                              [_vm._v("Search")]
-                            ),
-                          ]
-                        ),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "form",
-                      {
-                        staticClass: "pt-1 d-none",
-                        attrs: { "data-kt-search-element": "preferences" },
-                      },
-                      [
-                        _c(
-                          "h3",
-                          { staticClass: "fw-semibold text-gray-900 mb-7" },
-                          [_vm._v("Search Preferences")]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "pb-4 border-bottom" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass:
-                                "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
-                            },
-                            [
-                              _c(
-                                "span",
-                                {
-                                  staticClass:
-                                    "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
-                                },
-                                [_vm._v("Projects")]
-                              ),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-check-input",
-                                attrs: {
-                                  type: "checkbox",
-                                  value: "1",
-                                  checked: "checked",
-                                },
-                              }),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "py-4 border-bottom" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass:
-                                "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
-                            },
-                            [
-                              _c(
-                                "span",
-                                {
-                                  staticClass:
-                                    "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
-                                },
-                                [_vm._v("Targets")]
-                              ),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-check-input",
-                                attrs: {
-                                  type: "checkbox",
-                                  value: "1",
-                                  checked: "checked",
-                                },
-                              }),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "py-4 border-bottom" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass:
-                                "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
-                            },
-                            [
-                              _c(
-                                "span",
-                                {
-                                  staticClass:
-                                    "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
-                                },
-                                [_vm._v("Affiliate Programs")]
-                              ),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-check-input",
-                                attrs: { type: "checkbox", value: "1" },
-                              }),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "py-4 border-bottom" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass:
-                                "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
-                            },
-                            [
-                              _c(
-                                "span",
-                                {
-                                  staticClass:
-                                    "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
-                                },
-                                [_vm._v("Referrals")]
-                              ),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-check-input",
-                                attrs: {
-                                  type: "checkbox",
-                                  value: "1",
-                                  checked: "checked",
-                                },
-                              }),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "py-4 border-bottom" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass:
-                                "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
-                            },
-                            [
-                              _c(
-                                "span",
-                                {
-                                  staticClass:
-                                    "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
-                                },
-                                [_vm._v("Users")]
-                              ),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-check-input",
-                                attrs: { type: "checkbox", value: "1" },
-                              }),
-                            ]
-                          ),
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "d-flex justify-content-end pt-7" },
-                          [
-                            _c(
-                              "button",
-                              {
-                                staticClass:
-                                  "btn btn-sm btn-light fw-bold btn-active-light-primary me-2",
-                                attrs: {
-                                  type: "reset",
-                                  "data-kt-search-element":
-                                    "preferences-dismiss",
-                                },
-                              },
-                              [_vm._v("Cancel")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "button",
-                              {
-                                staticClass: "btn btn-sm fw-bold btn-primary",
-                                attrs: { type: "submit" },
-                              },
-                              [_vm._v("Save Changes")]
-                            ),
-                          ]
-                        ),
-                      ]
-                    ),
-                  ]
-                ),
-              ]
-            ),
-          ]
-        ),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "d-flex align-items-center d-lg-none ms-n3 me-1",
-        attrs: { title: "Show aside menu" },
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass: "btn btn-icon btn-active-color-primary w-30px h-30px",
-            attrs: { id: "kt_aside_mobile_toggle" },
-          },
-          [_c("i", { staticClass: "ki-outline ki-abstract-14 fs-1" })]
-        ),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "app-sidebar-menu flex-column-fluid" }, [
+    return _c("div", [
       _c(
         "div",
         {
-          staticClass: "hover-scroll-overlay-y my-5",
+          staticClass: "app-header",
           attrs: {
-            id: "kt_app_sidebar_menu_wrapper",
-            "data-kt-scroll": "true",
-            "data-kt-scroll-activate": "true",
-            "data-kt-scroll-height": "auto",
-            "data-kt-scroll-dependencies":
-              "#kt_app_sidebar_logo, #kt_app_sidebar_footer",
-            "data-kt-scroll-wrappers": "#kt_app_sidebar_menu",
-            "data-kt-scroll-offset": "5px",
+            id: "kt_app_header",
+            "data-kt-sticky": "true",
+            "data-kt-sticky-activate": "{default: true, lg: true}",
+            "data-kt-sticky-name": "app-header-minimize",
+            "data-kt-sticky-animation": "false",
+            "data-kt-sticky-offset": "{default: '0px', lg: '0px'}",
           },
         },
         [
@@ -30737,31 +28544,38 @@ var staticRenderFns = [
             "div",
             {
               staticClass:
-                "menu menu-column menu-rounded menu-sub-indention fw-bold px-6",
-              attrs: {
-                id: "#kt_app_sidebar_menu",
-                "data-kt-menu": "true",
-                "data-kt-menu-expand": "false",
-              },
+                "app-container container-fluid d-flex align-items-stretch flex-stack mt-lg-8",
+              attrs: { id: "kt_app_header_container" },
             },
             [
               _c(
                 "div",
                 {
-                  staticClass: "menu-item here",
-                  attrs: { "data-kt-menu-trigger": "click" },
+                  staticClass:
+                    "d-flex align-items-center d-block d-lg-none ms-n3",
+                  attrs: { title: "Show sidebar menu" },
                 },
                 [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-category fs-2" }),
-                    ]),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "btn btn-icon btn-active-color-primary w-35px h-35px me-1",
+                      attrs: { id: "kt_app_sidebar_mobile_toggle" },
+                    },
+                    [_c("i", { staticClass: "ki-outline ki-abstract-14 fs-2" })]
+                  ),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "/" } }, [
+                    _c("img", {
+                      staticClass: "h-25px theme-light-show",
+                      attrs: { alt: "Logo", src: "/common/logo.svg" },
+                    }),
                     _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Dashboard"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
+                    _c("img", {
+                      staticClass: "h-25px theme-dark-show",
+                      attrs: { alt: "Logo", src: "/common/logo.svg" },
+                    }),
                   ]),
                 ]
               ),
@@ -30769,779 +28583,3362 @@ var staticRenderFns = [
               _c(
                 "div",
                 {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
+                  staticClass: "app-navbar flex-lg-grow-1",
+                  attrs: { id: "kt_app_header_navbar" },
                 },
                 [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", {
-                        staticClass: "ki-outline ki-profile-user fs-2",
-                      }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Members"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
-                },
-                [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-wallet fs-2" }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Contributions"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
-                },
-                [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-user fs-2" }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Users"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
-                },
-                [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-some-files fs-2" }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Reports"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
-                },
-                [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-messages fs-2" }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Message Board"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
-                },
-                [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-setting-3 fs-2" }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Settings"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "menu-item",
-                  attrs: { "data-kt-menu-trigger": "click" },
-                },
-                [
-                  _c("span", { staticClass: "menu-link" }, [
-                    _c("span", { staticClass: "menu-icon" }, [
-                      _c("i", { staticClass: "ki-outline ki-lock-2 fs-2" }),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-title" }, [
-                      _vm._v("Sign Out"),
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "menu-arrow" }),
-                  ]),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "app-navbar-item d-flex align-items-stretch flex-lg-grow-1 me-1 me-lg-0",
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "header-search d-flex align-items-center w-lg-275px",
+                          attrs: {
+                            id: "kt_header_search",
+                            "data-kt-search-keypress": "true",
+                            "data-kt-search-min-length": "2",
+                            "data-kt-search-enter": "enter",
+                            "data-kt-search-layout": "menu",
+                            "data-kt-search-responsive": "true",
+                            "data-kt-menu-trigger": "auto",
+                            "data-kt-menu-permanent": "true",
+                            "data-kt-menu-placement": "bottom-start",
+                          },
+                        },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "search-toggle-mobile d-flex d-lg-none align-items-center",
+                              attrs: { "data-kt-search-element": "toggle" },
+                            },
+                            [
+                              _c("div", { staticClass: "d-flex" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-magnifier fs-1",
+                                }),
+                              ]),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "form",
+                            {
+                              staticClass:
+                                "d-none d-lg-block w-100 position-relative mb-5 mb-lg-0",
+                              attrs: {
+                                "data-kt-search-element": "form",
+                                autocomplete: "off",
+                              },
+                            },
+                            [
+                              _c("input", { attrs: { type: "hidden" } }),
+                              _vm._v(" "),
+                              _c("i", {
+                                staticClass:
+                                  "ki-outline ki-magnifier search-icon fs-2 text-gray-500 position-absolute top-50 translate-middle-y ms-5",
+                              }),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass:
+                                  "search-input form-control form-control-solid ps-13",
+                                attrs: {
+                                  type: "text",
+                                  name: "search",
+                                  value: "",
+                                  placeholder: "Search...",
+                                  "data-kt-search-element": "input",
+                                },
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "search-spinner position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5",
+                                  attrs: {
+                                    "data-kt-search-element": "spinner",
+                                  },
+                                },
+                                [
+                                  _c("span", {
+                                    staticClass:
+                                      "spinner-border h-15px w-15px align-middle text-gray-500",
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                {
+                                  staticClass:
+                                    "search-reset btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4",
+                                  attrs: { "data-kt-search-element": "clear" },
+                                },
+                                [
+                                  _c("i", {
+                                    staticClass:
+                                      "ki-outline ki-cross fs-2 fs-lg-1 me-0",
+                                  }),
+                                ]
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "menu menu-sub menu-sub-dropdown py-7 px-7 overflow-hidden w-300px w-md-350px",
+                              attrs: { "data-kt-search-element": "content" },
+                            },
+                            [
+                              _c(
+                                "div",
+                                {
+                                  attrs: {
+                                    "data-kt-search-element": "wrapper",
+                                  },
+                                },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "d-none",
+                                      attrs: {
+                                        "data-kt-search-element": "results",
+                                      },
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "scroll-y mh-200px mh-lg-350px",
+                                        },
+                                        [
+                                          _c(
+                                            "h3",
+                                            {
+                                              staticClass:
+                                                "fs-5 text-muted m-0 pb-5",
+                                              attrs: {
+                                                "data-kt-search-element":
+                                                  "category-title",
+                                              },
+                                            },
+                                            [_vm._v("Users")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c("img", {
+                                                    attrs: {
+                                                      src: "assets/media/avatars/300-6.jpg",
+                                                      alt: "",
+                                                    },
+                                                  }),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [_vm._v("Karina Clark")]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Marketing Manager"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c("img", {
+                                                    attrs: {
+                                                      src: "assets/media/avatars/300-2.jpg",
+                                                      alt: "",
+                                                    },
+                                                  }),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [_vm._v("Olivia Bold")]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Software Engineer"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c("img", {
+                                                    attrs: {
+                                                      src: "assets/media/avatars/300-9.jpg",
+                                                      alt: "",
+                                                    },
+                                                  }),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [_vm._v("Ana Clark")]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("UI/UX Designer")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c("img", {
+                                                    attrs: {
+                                                      src: "assets/media/avatars/300-14.jpg",
+                                                      alt: "",
+                                                    },
+                                                  }),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [_vm._v("Nick Pitola")]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("Art Director")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c("img", {
+                                                    attrs: {
+                                                      src: "assets/media/avatars/300-11.jpg",
+                                                      alt: "",
+                                                    },
+                                                  }),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [_vm._v("Edward Kulnic")]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "System Administrator"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h3",
+                                            {
+                                              staticClass:
+                                                "fs-5 text-muted m-0 pt-5 pb-5",
+                                              attrs: {
+                                                "data-kt-search-element":
+                                                  "category-title",
+                                              },
+                                            },
+                                            [_vm._v("Customers")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("img", {
+                                                        staticClass:
+                                                          "w-20px h-20px",
+                                                        attrs: {
+                                                          src: "assets/media/svg/brand-logos/volicity-9.svg",
+                                                          alt: "",
+                                                        },
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Company Rbranding"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("UI Design")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("img", {
+                                                        staticClass:
+                                                          "w-20px h-20px",
+                                                        attrs: {
+                                                          src: "assets/media/svg/brand-logos/tvit.svg",
+                                                          alt: "",
+                                                        },
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Company Re-branding"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("Web Development")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("img", {
+                                                        staticClass:
+                                                          "w-20px h-20px",
+                                                        attrs: {
+                                                          src: "assets/media/svg/misc/infography.svg",
+                                                          alt: "",
+                                                        },
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Business Analytics App"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("Administration")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("img", {
+                                                        staticClass:
+                                                          "w-20px h-20px",
+                                                        attrs: {
+                                                          src: "assets/media/svg/brand-logos/leaf.svg",
+                                                          alt: "",
+                                                        },
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "EcoLeaf App Launch"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("Marketing")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("img", {
+                                                        staticClass:
+                                                          "w-20px h-20px",
+                                                        attrs: {
+                                                          src: "assets/media/svg/brand-logos/tower.svg",
+                                                          alt: "",
+                                                        },
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column justify-content-start fw-semibold",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Tower Group Website"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("Google Adwords")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "h3",
+                                            {
+                                              staticClass:
+                                                "fs-5 text-muted m-0 pt-5 pb-5",
+                                              attrs: {
+                                                "data-kt-search-element":
+                                                  "category-title",
+                                              },
+                                            },
+                                            [_vm._v("Projects")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-notepad fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Si-Fi Project by AU Themes"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("#45670")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-frame fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Shopix Mobile App Planning"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("#45690")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-message-text-2 fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Finance Monitoring SAAS Discussion"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("#21090")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "a",
+                                            {
+                                              staticClass:
+                                                "d-flex text-gray-900 text-hover-primary align-items-center mb-5",
+                                              attrs: { href: "#" },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-profile-circle fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 fw-semibold",
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Dashboard Analitics Launch"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 fw-semibold text-muted",
+                                                    },
+                                                    [_vm._v("#34560")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      attrs: {
+                                        "data-kt-search-element": "main",
+                                      },
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "d-flex flex-stack fw-semibold mb-4",
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "text-muted fs-6 me-2",
+                                            },
+                                            [_vm._v("Recently Searched:")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass: "d-flex",
+                                              attrs: {
+                                                "data-kt-search-element":
+                                                  "toolbar",
+                                              },
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "btn btn-icon w-20px btn-sm btn-active-color-primary me-2 data-bs-toggle=",
+                                                  attrs: {
+                                                    "data-kt-search-element":
+                                                      "preferences-show",
+                                                    title:
+                                                      "Show search preferences",
+                                                  },
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "ki-outline ki-setting-2 fs-2",
+                                                  }),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "btn btn-icon w-20px btn-sm btn-active-color-primary me-n1",
+                                                  attrs: {
+                                                    "data-kt-search-element":
+                                                      "advanced-options-form-show",
+                                                    "data-bs-toggle": "tooltip",
+                                                    title:
+                                                      "Show more search options",
+                                                  },
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "ki-outline ki-down fs-2",
+                                                  }),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "scroll-y mh-200px mh-lg-325px",
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-laptop fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "BoomApp by Keenthemes"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#45789")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-chart-simple fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        '"Kept API Project Meeting'
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#84050")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-chart fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        '"KPI Monitoring App Launch'
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#84250")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-chart-line-down fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Project Reference FAQ"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#67945")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-sms fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        '"FitPro App Development'
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#84250")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-bank fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        "Shopix Mobile App"
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#45690")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center mb-5",
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "symbol symbol-40px me-4",
+                                                },
+                                                [
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "symbol-label bg-light",
+                                                    },
+                                                    [
+                                                      _c("i", {
+                                                        staticClass:
+                                                          "ki-outline ki-chart-line-down fs-2 text-primary",
+                                                      }),
+                                                    ]
+                                                  ),
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex flex-column",
+                                                },
+                                                [
+                                                  _c(
+                                                    "a",
+                                                    {
+                                                      staticClass:
+                                                        "fs-6 text-gray-800 text-hover-primary fw-semibold",
+                                                      attrs: { href: "#" },
+                                                    },
+                                                    [
+                                                      _vm._v(
+                                                        '"Landing UI Design" Launch'
+                                                      ),
+                                                    ]
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "span",
+                                                    {
+                                                      staticClass:
+                                                        "fs-7 text-muted fw-semibold",
+                                                    },
+                                                    [_vm._v("#24005")]
+                                                  ),
+                                                ]
+                                              ),
+                                            ]
+                                          ),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "text-center d-none",
+                                      attrs: {
+                                        "data-kt-search-element": "empty",
+                                      },
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        { staticClass: "pt-10 pb-10" },
+                                        [
+                                          _c("i", {
+                                            staticClass:
+                                              "ki-outline ki-search-list fs-4x opacity-50",
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "pb-15 fw-semibold" },
+                                        [
+                                          _c(
+                                            "h3",
+                                            {
+                                              staticClass:
+                                                "text-gray-600 fs-5 mb-2",
+                                            },
+                                            [_vm._v("No result found")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            { staticClass: "text-muted fs-7" },
+                                            [
+                                              _vm._v(
+                                                "Please try again with a different query"
+                                              ),
+                                            ]
+                                          ),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "form",
+                                {
+                                  staticClass: "pt-1 d-none",
+                                  attrs: {
+                                    "data-kt-search-element":
+                                      "advanced-options-form",
+                                  },
+                                },
+                                [
+                                  _c(
+                                    "h3",
+                                    {
+                                      staticClass:
+                                        "fw-semibold text-gray-900 mb-7",
+                                    },
+                                    [_vm._v("Advanced Search")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mb-5" }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-control form-control-sm form-control-solid",
+                                      attrs: {
+                                        type: "text",
+                                        placeholder: "Contains the word",
+                                        name: "query",
+                                      },
+                                    }),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mb-5" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "nav-group nav-group-fluid",
+                                      },
+                                      [
+                                        _c("label", [
+                                          _c("input", {
+                                            staticClass: "btn-check",
+                                            attrs: {
+                                              type: "radio",
+                                              name: "type",
+                                              value: "has",
+                                              checked: "checked",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "btn btn-sm btn-color-muted btn-active btn-active-primary",
+                                            },
+                                            [_vm._v("All")]
+                                          ),
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("label", [
+                                          _c("input", {
+                                            staticClass: "btn-check",
+                                            attrs: {
+                                              type: "radio",
+                                              name: "type",
+                                              value: "users",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
+                                            },
+                                            [_vm._v("Users")]
+                                          ),
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("label", [
+                                          _c("input", {
+                                            staticClass: "btn-check",
+                                            attrs: {
+                                              type: "radio",
+                                              name: "type",
+                                              value: "orders",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
+                                            },
+                                            [_vm._v("Orders")]
+                                          ),
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("label", [
+                                          _c("input", {
+                                            staticClass: "btn-check",
+                                            attrs: {
+                                              type: "radio",
+                                              name: "type",
+                                              value: "projects",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
+                                            },
+                                            [_vm._v("Projects")]
+                                          ),
+                                        ]),
+                                      ]
+                                    ),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mb-5" }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-control form-control-sm form-control-solid",
+                                      attrs: {
+                                        type: "text",
+                                        name: "assignedto",
+                                        placeholder: "Assigned to",
+                                        value: "",
+                                      },
+                                    }),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mb-5" }, [
+                                    _c("input", {
+                                      staticClass:
+                                        "form-control form-control-sm form-control-solid",
+                                      attrs: {
+                                        type: "text",
+                                        name: "collaborators",
+                                        placeholder: "Collaborators",
+                                        value: "",
+                                      },
+                                    }),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mb-5" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "nav-group nav-group-fluid",
+                                      },
+                                      [
+                                        _c("label", [
+                                          _c("input", {
+                                            staticClass: "btn-check",
+                                            attrs: {
+                                              type: "radio",
+                                              name: "attachment",
+                                              value: "has",
+                                              checked: "checked",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "btn btn-sm btn-color-muted btn-active btn-active-primary",
+                                            },
+                                            [_vm._v("Has attachment")]
+                                          ),
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("label", [
+                                          _c("input", {
+                                            staticClass: "btn-check",
+                                            attrs: {
+                                              type: "radio",
+                                              name: "attachment",
+                                              value: "any",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "btn btn-sm btn-color-muted btn-active btn-active-primary px-4",
+                                            },
+                                            [_vm._v("Any")]
+                                          ),
+                                        ]),
+                                      ]
+                                    ),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "mb-5" }, [
+                                    _c(
+                                      "select",
+                                      {
+                                        staticClass:
+                                          "form-select form-select-sm form-select-solid",
+                                        attrs: {
+                                          name: "timezone",
+                                          "aria-label": "Select a Timezone",
+                                          "data-control": "select2",
+                                          "data-dropdown-parent":
+                                            "#kt_header_search",
+                                          "data-placeholder": "date_period",
+                                        },
+                                      },
+                                      [
+                                        _c(
+                                          "option",
+                                          { attrs: { value: "next" } },
+                                          [_vm._v("Within the next")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "option",
+                                          { attrs: { value: "last" } },
+                                          [_vm._v("Within the last")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "option",
+                                          { attrs: { value: "between" } },
+                                          [_vm._v("Between")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "option",
+                                          { attrs: { value: "on" } },
+                                          [_vm._v("On")]
+                                        ),
+                                      ]
+                                    ),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "row mb-8" }, [
+                                    _c("div", { staticClass: "col-6" }, [
+                                      _c("input", {
+                                        staticClass:
+                                          "form-control form-control-sm form-control-solid",
+                                        attrs: {
+                                          type: "number",
+                                          name: "date_number",
+                                          placeholder: "Lenght",
+                                          value: "",
+                                        },
+                                      }),
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "col-6" }, [
+                                      _c(
+                                        "select",
+                                        {
+                                          staticClass:
+                                            "form-select form-select-sm form-select-solid",
+                                          attrs: {
+                                            name: "date_typer",
+                                            "aria-label": "Select a Timezone",
+                                            "data-control": "select2",
+                                            "data-dropdown-parent":
+                                              "#kt_header_search",
+                                            "data-placeholder": "Period",
+                                          },
+                                        },
+                                        [
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "days" } },
+                                            [_vm._v("Days")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "weeks" } },
+                                            [_vm._v("Weeks")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "months" } },
+                                            [_vm._v("Months")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "years" } },
+                                            [_vm._v("Years")]
+                                          ),
+                                        ]
+                                      ),
+                                    ]),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "d-flex justify-content-end",
+                                    },
+                                    [
+                                      _c(
+                                        "button",
+                                        {
+                                          staticClass:
+                                            "btn btn-sm btn-light fw-bold btn-active-light-primary me-2",
+                                          attrs: {
+                                            type: "reset",
+                                            "data-kt-search-element":
+                                              "advanced-options-form-cancel",
+                                          },
+                                        },
+                                        [_vm._v("Cancel")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "btn btn-sm fw-bold btn-primary",
+                                          attrs: {
+                                            href: "utilities/search/horizontal.html",
+                                            "data-kt-search-element":
+                                              "advanced-options-form-search",
+                                          },
+                                        },
+                                        [_vm._v("Search")]
+                                      ),
+                                    ]
+                                  ),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "form",
+                                {
+                                  staticClass: "pt-1 d-none",
+                                  attrs: {
+                                    "data-kt-search-element": "preferences",
+                                  },
+                                },
+                                [
+                                  _c(
+                                    "h3",
+                                    {
+                                      staticClass:
+                                        "fw-semibold text-gray-900 mb-7",
+                                    },
+                                    [_vm._v("Search Preferences")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    { staticClass: "pb-4 border-bottom" },
+                                    [
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass:
+                                            "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
+                                            },
+                                            [_vm._v("Projects")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c("input", {
+                                            staticClass: "form-check-input",
+                                            attrs: {
+                                              type: "checkbox",
+                                              value: "1",
+                                              checked: "checked",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    { staticClass: "py-4 border-bottom" },
+                                    [
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass:
+                                            "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
+                                            },
+                                            [_vm._v("Targets")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c("input", {
+                                            staticClass: "form-check-input",
+                                            attrs: {
+                                              type: "checkbox",
+                                              value: "1",
+                                              checked: "checked",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    { staticClass: "py-4 border-bottom" },
+                                    [
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass:
+                                            "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
+                                            },
+                                            [_vm._v("Affiliate Programs")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c("input", {
+                                            staticClass: "form-check-input",
+                                            attrs: {
+                                              type: "checkbox",
+                                              value: "1",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    { staticClass: "py-4 border-bottom" },
+                                    [
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass:
+                                            "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
+                                            },
+                                            [_vm._v("Referrals")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c("input", {
+                                            staticClass: "form-check-input",
+                                            attrs: {
+                                              type: "checkbox",
+                                              value: "1",
+                                              checked: "checked",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    { staticClass: "py-4 border-bottom" },
+                                    [
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass:
+                                            "form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack",
+                                        },
+                                        [
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2",
+                                            },
+                                            [_vm._v("Users")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c("input", {
+                                            staticClass: "form-check-input",
+                                            attrs: {
+                                              type: "checkbox",
+                                              value: "1",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "d-flex justify-content-end pt-7",
+                                    },
+                                    [
+                                      _c(
+                                        "button",
+                                        {
+                                          staticClass:
+                                            "btn btn-sm btn-light fw-bold btn-active-light-primary me-2",
+                                          attrs: {
+                                            type: "reset",
+                                            "data-kt-search-element":
+                                              "preferences-dismiss",
+                                          },
+                                        },
+                                        [_vm._v("Cancel")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "button",
+                                        {
+                                          staticClass:
+                                            "btn btn-sm fw-bold btn-primary",
+                                          attrs: { type: "submit" },
+                                        },
+                                        [_vm._v("Save Changes")]
+                                      ),
+                                    ]
+                                  ),
+                                ]
+                              ),
+                            ]
+                          ),
+                        ]
+                      ),
+                    ]
+                  ),
                 ]
               ),
             ]
           ),
         ]
       ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "d-flex flex-column align-items-start justify-content-center ms-3",
-      },
-      [
-        _c("span", { staticClass: "text-gray-500 fs-8 fw-semibold" }, [
-          _vm._v("Hello"),
-        ]),
-        _vm._v(" "),
-        _c(
-          "a",
-          {
-            staticClass: "text-gray-800 fs-7 fw-bold text-hover-primary",
-            attrs: { href: "#" },
-          },
-          [_vm._v("Jeroen van Basten")]
-        ),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "d-flex flex-column" }, [
-      _c("div", { staticClass: "fw-bold d-flex align-items-center fs-5" }, [
-        _vm._v(
-          "Jeroen van Basten\n                                            "
-        ),
-        _c(
-          "span",
-          {
-            staticClass:
-              "badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2",
-          },
-          [_vm._v("Pro")]
-        ),
-      ]),
       _vm._v(" "),
       _c(
-        "a",
+        "div",
         {
-          staticClass: "fw-semibold text-muted text-hover-primary fs-7",
-          attrs: { href: "#" },
-        },
-        [_vm._v("jeroen@kt.com")]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-item px-5" }, [
-      _c(
-        "a",
-        {
-          staticClass: "menu-link px-5",
-          attrs: { href: "account/overview.html" },
-        },
-        [_vm._v("My Profile")]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-item px-5" }, [
-      _c(
-        "a",
-        {
-          staticClass: "menu-link px-5",
-          attrs: { href: "apps/projects/list.html" },
+          staticClass: "app-wrapper flex-column flex-row-fluid",
+          attrs: { id: "kt_app_wrapper" },
         },
         [
-          _c("span", { staticClass: "menu-text" }, [_vm._v("My Projects")]),
-          _vm._v(" "),
-          _c("span", { staticClass: "menu-badge" }, [
-            _c(
-              "span",
-              {
-                staticClass:
-                  "badge badge-light-danger badge-circle fw-bold fs-7",
-              },
-              [_vm._v("3")]
-            ),
-          ]),
-        ]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "menu-item px-5",
-        attrs: {
-          "data-kt-menu-trigger": "{default: 'click', lg: 'hover'}",
-          "data-kt-menu-placement": "right-end",
-          "data-kt-menu-offset": "-15px, 0",
-        },
-      },
-      [
-        _c("a", { staticClass: "menu-link px-5", attrs: { href: "#" } }, [
-          _c("span", { staticClass: "menu-title" }, [
-            _vm._v("My Subscription"),
-          ]),
-          _vm._v(" "),
-          _c("span", { staticClass: "menu-arrow" }),
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "menu-sub menu-sub-dropdown w-175px py-4" }, [
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link px-5",
-                attrs: { href: "account/referrals.html" },
-              },
-              [_vm._v("Referrals")]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link px-5",
-                attrs: { href: "account/billing.html" },
-              },
-              [_vm._v("Billing")]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link px-5",
-                attrs: { href: "account/statements.html" },
-              },
-              [_vm._v("Payments")]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link d-flex flex-stack px-5",
-                attrs: { href: "account/statements.html" },
-              },
-              [
-                _vm._v(
-                  "Statements\n                                            "
-                ),
-                _c(
-                  "span",
-                  {
-                    staticClass: "ms-2 lh-0",
-                    attrs: {
-                      "data-bs-toggle": "tooltip",
-                      title: "View your statements",
-                    },
-                  },
-                  [_c("i", { staticClass: "ki-outline ki-information-5 fs-5" })]
-                ),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "separator my-2" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c("div", { staticClass: "menu-content px-3" }, [
-              _c(
-                "label",
-                {
-                  staticClass:
-                    "form-check form-switch form-check-custom form-check-solid",
-                },
-                [
-                  _c("input", {
-                    staticClass: "form-check-input w-30px h-20px",
-                    attrs: {
-                      type: "checkbox",
-                      value: "1",
-                      checked: "checked",
-                      name: "notifications",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "span",
-                    { staticClass: "form-check-label text-muted fs-7" },
-                    [_vm._v("Notifications")]
-                  ),
-                ]
-              ),
-            ]),
-          ]),
-        ]),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-item px-5" }, [
-      _c(
-        "a",
-        {
-          staticClass: "menu-link px-5",
-          attrs: { href: "account/statements.html" },
-        },
-        [_vm._v("My Statements")]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "menu-item px-5",
-        attrs: {
-          "data-kt-menu-trigger": "{default: 'click', lg: 'hover'}",
-          "data-kt-menu-placement": "left-start",
-          "data-kt-menu-offset": "-15px, 0",
-        },
-      },
-      [
-        _c("a", { staticClass: "menu-link px-5", attrs: { href: "#" } }, [
-          _c("span", { staticClass: "menu-title position-relative" }, [
-            _vm._v("Mode\n\t\t\t\t\t\t\t\t\t\t\t"),
-            _c(
-              "span",
-              {
-                staticClass:
-                  "ms-5 position-absolute translate-middle-y top-50 end-0",
-              },
-              [
-                _c("i", {
-                  staticClass: "ki-outline ki-night-day theme-light-show fs-2",
-                }),
-                _vm._v(" "),
-                _c("i", {
-                  staticClass: "ki-outline ki-moon theme-dark-show fs-2",
-                }),
-              ]
-            ),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px",
-            attrs: {
-              "data-kt-menu": "true",
-              "data-kt-element": "theme-mode-menu",
-            },
-          },
-          [
-            _c("div", { staticClass: "menu-item px-3 my-0" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "menu-link px-3 py-2",
-                  attrs: {
-                    href: "#",
-                    "data-kt-element": "mode",
-                    "data-kt-value": "light",
-                  },
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "menu-icon",
-                      attrs: { "data-kt-element": "icon" },
-                    },
-                    [_c("i", { staticClass: "ki-outline ki-night-day fs-2" })]
-                  ),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "menu-title" }, [_vm._v("Light")]),
-                ]
-              ),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-item px-3 my-0" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "menu-link px-3 py-2",
-                  attrs: {
-                    href: "#",
-                    "data-kt-element": "mode",
-                    "data-kt-value": "dark",
-                  },
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "menu-icon",
-                      attrs: { "data-kt-element": "icon" },
-                    },
-                    [_c("i", { staticClass: "ki-outline ki-moon fs-2" })]
-                  ),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "menu-title" }, [_vm._v("Dark")]),
-                ]
-              ),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-item px-3 my-0" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "menu-link px-3 py-2",
-                  attrs: {
-                    href: "#",
-                    "data-kt-element": "mode",
-                    "data-kt-value": "system",
-                  },
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "menu-icon",
-                      attrs: { "data-kt-element": "icon" },
-                    },
-                    [_c("i", { staticClass: "ki-outline ki-screen fs-2" })]
-                  ),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "menu-title" }, [_vm._v("System")]),
-                ]
-              ),
-            ]),
-          ]
-        ),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "menu-item px-5",
-        attrs: {
-          "data-kt-menu-trigger": "{default: 'click', lg: 'hover'}",
-          "data-kt-menu-placement": "right-end",
-          "data-kt-menu-offset": "-15px, 0",
-        },
-      },
-      [
-        _c("a", { staticClass: "menu-link px-5", attrs: { href: "#" } }, [
-          _c("span", { staticClass: "menu-title position-relative" }, [
-            _vm._v("Language\n\t\t\t\t\t\t\t\t\t\t\t"),
-            _c(
-              "span",
-              {
-                staticClass:
-                  "fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0",
-              },
-              [
-                _vm._v("English\n\t\t\t\t\t\t\t\t\t\t\t"),
-                _c("img", {
-                  staticClass: "w-15px h-15px rounded-1 ms-2",
-                  attrs: {
-                    src: "assets/media/flags/united-states.svg",
-                    alt: "",
-                  },
-                }),
-              ]
-            ),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "menu-sub menu-sub-dropdown w-175px py-4" }, [
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link d-flex px-5 active",
-                attrs: { href: "account/settings.html" },
-              },
-              [
-                _c("span", { staticClass: "symbol symbol-20px me-4" }, [
-                  _c("img", {
-                    staticClass: "rounded-1",
-                    attrs: {
-                      src: "assets/media/flags/united-states.svg",
-                      alt: "",
-                    },
-                  }),
-                ]),
-                _vm._v("English"),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link d-flex px-5",
-                attrs: { href: "account/settings.html" },
-              },
-              [
-                _c("span", { staticClass: "symbol symbol-20px me-4" }, [
-                  _c("img", {
-                    staticClass: "rounded-1",
-                    attrs: { src: "assets/media/flags/spain.svg", alt: "" },
-                  }),
-                ]),
-                _vm._v("Spanish"),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link d-flex px-5",
-                attrs: { href: "account/settings.html" },
-              },
-              [
-                _c("span", { staticClass: "symbol symbol-20px me-4" }, [
-                  _c("img", {
-                    staticClass: "rounded-1",
-                    attrs: { src: "assets/media/flags/germany.svg", alt: "" },
-                  }),
-                ]),
-                _vm._v("German"),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link d-flex px-5",
-                attrs: { href: "account/settings.html" },
-              },
-              [
-                _c("span", { staticClass: "symbol symbol-20px me-4" }, [
-                  _c("img", {
-                    staticClass: "rounded-1",
-                    attrs: { src: "assets/media/flags/japan.svg", alt: "" },
-                  }),
-                ]),
-                _vm._v("Japanese"),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "menu-item px-3" }, [
-            _c(
-              "a",
-              {
-                staticClass: "menu-link d-flex px-5",
-                attrs: { href: "account/settings.html" },
-              },
-              [
-                _c("span", { staticClass: "symbol symbol-20px me-4" }, [
-                  _c("img", {
-                    staticClass: "rounded-1",
-                    attrs: { src: "assets/media/flags/france.svg", alt: "" },
-                  }),
-                ]),
-                _vm._v("French"),
-              ]
-            ),
-          ]),
-        ]),
-      ]
-    )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-item px-5 my-1" }, [
-      _c(
-        "a",
-        {
-          staticClass: "menu-link px-5",
-          attrs: { href: "account/settings.html" },
-        },
-        [_vm._v("Account Settings")]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-item px-5" }, [
-      _c(
-        "a",
-        {
-          staticClass: "menu-link px-5",
-          attrs: { href: "authentication/layouts/corporate/sign-in.html" },
-        },
-        [_vm._v("Sign Out")]
-      ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "app-main flex-column flex-row-fluid",
-        attrs: { id: "kt_app_main" },
-      },
-      [
-        _c("div", { staticClass: "d-flex flex-column flex-column-fluid" }, [
           _c(
             "div",
             {
-              staticClass: "app-content flex-column-fluid",
-              attrs: { id: "kt_app_content" },
+              staticClass:
+                "app-sidebar flex-column mt-lg-4 ps-2 pe-2 ps-lg-7 pe-lg-4",
+              attrs: {
+                id: "kt_app_sidebar",
+                "data-kt-drawer": "true",
+                "data-kt-drawer-name": "app-sidebar",
+                "data-kt-drawer-activate": "{default: true, lg: false}",
+                "data-kt-drawer-overlay": "true",
+                "data-kt-drawer-width": "250px",
+                "data-kt-drawer-direction": "start",
+                "data-kt-drawer-toggle": "#kt_app_sidebar_mobile_toggle",
+              },
             },
             [
-              _c("div", {
-                staticClass: "app-container container-fluid",
-                attrs: { id: "kt_app_content_container" },
-              }),
-            ]
-          ),
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "app-footer", attrs: { id: "kt_app_footer" } },
-          [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3",
-              },
-              [
-                _c("div", { staticClass: "text-gray-900 order-2 order-md-1" }, [
-                  _c("span", { staticClass: "text-muted fw-semibold me-1" }, [
-                    _vm._v("2024©"),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "app-sidebar-logo flex-shrink-0 d-none d-md-flex flex-center align-items-center",
+                  attrs: { id: "kt_app_sidebar_logo" },
+                },
+                [
+                  _c("a", { attrs: { href: "/" } }, [
+                    _c("img", {
+                      staticClass:
+                        "h-25px d-none d-sm-inline app-sidebar-logo-default theme-light-show",
+                      attrs: { alt: "Logo", src: "/common/logo.svg" },
+                    }),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "h-25px theme-dark-show",
+                      attrs: { alt: "Logo", src: "/common/logo.svg" },
+                    }),
                   ]),
                   _vm._v(" "),
                   _c(
-                    "a",
+                    "div",
                     {
-                      staticClass: "text-gray-800 text-hover-primary",
-                      attrs: {
-                        href: "https://debechlabs.co.ke",
-                        target: "_blank",
-                      },
+                      staticClass:
+                        "d-flex align-items-center d-lg-none ms-n3 me-1",
+                      attrs: { title: "Show aside menu" },
                     },
-                    [_vm._v("Debech Labs")]
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "btn btn-icon btn-active-color-primary w-30px h-30px",
+                          attrs: { id: "kt_aside_mobile_toggle" },
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "ki-outline ki-abstract-14 fs-1",
+                          }),
+                        ]
+                      ),
+                    ]
                   ),
-                ]),
-                _vm._v(" "),
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "app-sidebar-menu flex-column-fluid" }, [
                 _c(
-                  "ul",
+                  "div",
                   {
-                    staticClass:
-                      "menu menu-gray-600 menu-hover-primary fw-semibold order-1",
+                    staticClass: "hover-scroll-overlay-y my-5",
+                    attrs: {
+                      id: "kt_app_sidebar_menu_wrapper",
+                      "data-kt-scroll": "true",
+                      "data-kt-scroll-activate": "true",
+                      "data-kt-scroll-height": "auto",
+                      "data-kt-scroll-dependencies":
+                        "#kt_app_sidebar_logo, #kt_app_sidebar_footer",
+                      "data-kt-scroll-wrappers": "#kt_app_sidebar_menu",
+                      "data-kt-scroll-offset": "5px",
+                    },
                   },
                   [
-                    _c("li", { staticClass: "menu-item" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "menu-link px-2",
-                          attrs: { href: "#", target: "_blank" },
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "menu menu-column menu-rounded menu-sub-indention fw-bold px-6",
+                        attrs: {
+                          id: "#kt_app_sidebar_menu",
+                          "data-kt-menu": "true",
+                          "data-kt-menu-expand": "false",
                         },
-                        [_vm._v("About")]
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("li", { staticClass: "menu-item" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "menu-link px-2",
-                          attrs: { href: "#", target: "_blank" },
-                        },
-                        [_vm._v("Support")]
-                      ),
-                    ]),
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item here",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-category fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Dashboard"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass:
+                                    "ki-outline ki-profile-user fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Members"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-wallet fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Contributions"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-user fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Users"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-some-files fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Reports"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-messages fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Message Board"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-setting-3 fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Settings"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item",
+                            attrs: { "data-kt-menu-trigger": "click" },
+                          },
+                          [
+                            _c("span", { staticClass: "menu-link" }, [
+                              _c("span", { staticClass: "menu-icon" }, [
+                                _c("i", {
+                                  staticClass: "ki-outline ki-lock-2 fs-2",
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-title" }, [
+                                _vm._v("Sign Out"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-arrow" }),
+                            ]),
+                          ]
+                        ),
+                      ]
+                    ),
                   ]
                 ),
-              ]
-            ),
-          ]
-        ),
-      ]
-    )
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "app-sidebar-footer d-flex align-items-center px-8 pb-10",
+                  attrs: { id: "kt_app_sidebar_footer" },
+                },
+                [
+                  _c("div", {}, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "d-flex align-items-center",
+                        attrs: {
+                          "data-kt-menu-trigger":
+                            "{default: 'click', lg: 'hover'}",
+                          "data-kt-menu-overflow": "true",
+                          "data-kt-menu-placement": "top-start",
+                        },
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "d-flex flex-center cursor-pointer symbol symbol-circle symbol-40px",
+                          },
+                          [
+                            _c("img", {
+                              attrs: {
+                                src: "/backend/assets/media/avatars/300-1.jpg",
+                                alt: "image",
+                              },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "d-flex flex-column align-items-start justify-content-center ms-3",
+                          },
+                          [
+                            _c(
+                              "span",
+                              { staticClass: "text-gray-500 fs-8 fw-semibold" },
+                              [_vm._v("Hello")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-gray-800 fs-7 fw-bold text-hover-primary",
+                                attrs: { href: "#" },
+                              },
+                              [_vm._v("Jeroen van Basten")]
+                            ),
+                          ]
+                        ),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px",
+                        attrs: { "data-kt-menu": "true" },
+                      },
+                      [
+                        _c("div", { staticClass: "menu-item px-3" }, [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "menu-content d-flex align-items-center px-3",
+                            },
+                            [
+                              _c(
+                                "div",
+                                { staticClass: "symbol symbol-50px me-5" },
+                                [
+                                  _c("img", {
+                                    attrs: {
+                                      alt: "Logo",
+                                      src: "/backend/assets/media/avatars/300-1.jpg",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "d-flex flex-column" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "fw-bold d-flex align-items-center fs-5",
+                                  },
+                                  [
+                                    _vm._v(
+                                      "Jeroen van Basten\n                                            "
+                                    ),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2",
+                                      },
+                                      [_vm._v("Pro")]
+                                    ),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "fw-semibold text-muted text-hover-primary fs-7",
+                                    attrs: { href: "#" },
+                                  },
+                                  [_vm._v("jeroen@kt.com")]
+                                ),
+                              ]),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "separator my-2" }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-item px-5" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-link px-5",
+                              attrs: { href: "account/overview.html" },
+                            },
+                            [_vm._v("My Profile")]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-item px-5" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-link px-5",
+                              attrs: { href: "apps/projects/list.html" },
+                            },
+                            [
+                              _c("span", { staticClass: "menu-text" }, [
+                                _vm._v("My Projects"),
+                              ]),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "menu-badge" }, [
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass:
+                                      "badge badge-light-danger badge-circle fw-bold fs-7",
+                                  },
+                                  [_vm._v("3")]
+                                ),
+                              ]),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item px-5",
+                            attrs: {
+                              "data-kt-menu-trigger":
+                                "{default: 'click', lg: 'hover'}",
+                              "data-kt-menu-placement": "right-end",
+                              "data-kt-menu-offset": "-15px, 0",
+                            },
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "menu-link px-5",
+                                attrs: { href: "#" },
+                              },
+                              [
+                                _c("span", { staticClass: "menu-title" }, [
+                                  _vm._v("My Subscription"),
+                                ]),
+                                _vm._v(" "),
+                                _c("span", { staticClass: "menu-arrow" }),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "menu-sub menu-sub-dropdown w-175px py-4",
+                              },
+                              [
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link px-5",
+                                      attrs: { href: "account/referrals.html" },
+                                    },
+                                    [_vm._v("Referrals")]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link px-5",
+                                      attrs: { href: "account/billing.html" },
+                                    },
+                                    [_vm._v("Billing")]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link px-5",
+                                      attrs: {
+                                        href: "account/statements.html",
+                                      },
+                                    },
+                                    [_vm._v("Payments")]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass:
+                                        "menu-link d-flex flex-stack px-5",
+                                      attrs: {
+                                        href: "account/statements.html",
+                                      },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "Statements\n                                            "
+                                      ),
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass: "ms-2 lh-0",
+                                          attrs: {
+                                            "data-bs-toggle": "tooltip",
+                                            title: "View your statements",
+                                          },
+                                        },
+                                        [
+                                          _c("i", {
+                                            staticClass:
+                                              "ki-outline ki-information-5 fs-5",
+                                          }),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "separator my-2" }),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "div",
+                                    { staticClass: "menu-content px-3" },
+                                    [
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass:
+                                            "form-check form-switch form-check-custom form-check-solid",
+                                        },
+                                        [
+                                          _c("input", {
+                                            staticClass:
+                                              "form-check-input w-30px h-20px",
+                                            attrs: {
+                                              type: "checkbox",
+                                              value: "1",
+                                              checked: "checked",
+                                              name: "notifications",
+                                            },
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            {
+                                              staticClass:
+                                                "form-check-label text-muted fs-7",
+                                            },
+                                            [_vm._v("Notifications")]
+                                          ),
+                                        ]
+                                      ),
+                                    ]
+                                  ),
+                                ]),
+                              ]
+                            ),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-item px-5" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-link px-5",
+                              attrs: { href: "account/statements.html" },
+                            },
+                            [_vm._v("My Statements")]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "separator my-2" }),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item px-5",
+                            attrs: {
+                              "data-kt-menu-trigger":
+                                "{default: 'click', lg: 'hover'}",
+                              "data-kt-menu-placement": "left-start",
+                              "data-kt-menu-offset": "-15px, 0",
+                            },
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "menu-link px-5",
+                                attrs: { href: "#" },
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass: "menu-title position-relative",
+                                  },
+                                  [
+                                    _vm._v("Mode\n\t\t\t\t\t\t\t\t\t\t\t"),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "ms-5 position-absolute translate-middle-y top-50 end-0",
+                                      },
+                                      [
+                                        _c("i", {
+                                          staticClass:
+                                            "ki-outline ki-night-day theme-light-show fs-2",
+                                        }),
+                                        _vm._v(" "),
+                                        _c("i", {
+                                          staticClass:
+                                            "ki-outline ki-moon theme-dark-show fs-2",
+                                        }),
+                                      ]
+                                    ),
+                                  ]
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px",
+                                attrs: {
+                                  "data-kt-menu": "true",
+                                  "data-kt-element": "theme-mode-menu",
+                                },
+                              },
+                              [
+                                _c(
+                                  "div",
+                                  { staticClass: "menu-item px-3 my-0" },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass: "menu-link px-3 py-2",
+                                        attrs: {
+                                          href: "#",
+                                          "data-kt-element": "mode",
+                                          "data-kt-value": "light",
+                                        },
+                                      },
+                                      [
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass: "menu-icon",
+                                            attrs: {
+                                              "data-kt-element": "icon",
+                                            },
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ki-outline ki-night-day fs-2",
+                                            }),
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "span",
+                                          { staticClass: "menu-title" },
+                                          [_vm._v("Light")]
+                                        ),
+                                      ]
+                                    ),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "menu-item px-3 my-0" },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass: "menu-link px-3 py-2",
+                                        attrs: {
+                                          href: "#",
+                                          "data-kt-element": "mode",
+                                          "data-kt-value": "dark",
+                                        },
+                                      },
+                                      [
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass: "menu-icon",
+                                            attrs: {
+                                              "data-kt-element": "icon",
+                                            },
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ki-outline ki-moon fs-2",
+                                            }),
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "span",
+                                          { staticClass: "menu-title" },
+                                          [_vm._v("Dark")]
+                                        ),
+                                      ]
+                                    ),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "menu-item px-3 my-0" },
+                                  [
+                                    _c(
+                                      "a",
+                                      {
+                                        staticClass: "menu-link px-3 py-2",
+                                        attrs: {
+                                          href: "#",
+                                          "data-kt-element": "mode",
+                                          "data-kt-value": "system",
+                                        },
+                                      },
+                                      [
+                                        _c(
+                                          "span",
+                                          {
+                                            staticClass: "menu-icon",
+                                            attrs: {
+                                              "data-kt-element": "icon",
+                                            },
+                                          },
+                                          [
+                                            _c("i", {
+                                              staticClass:
+                                                "ki-outline ki-screen fs-2",
+                                            }),
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "span",
+                                          { staticClass: "menu-title" },
+                                          [_vm._v("System")]
+                                        ),
+                                      ]
+                                    ),
+                                  ]
+                                ),
+                              ]
+                            ),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "menu-item px-5",
+                            attrs: {
+                              "data-kt-menu-trigger":
+                                "{default: 'click', lg: 'hover'}",
+                              "data-kt-menu-placement": "right-end",
+                              "data-kt-menu-offset": "-15px, 0",
+                            },
+                          },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "menu-link px-5",
+                                attrs: { href: "#" },
+                              },
+                              [
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass: "menu-title position-relative",
+                                  },
+                                  [
+                                    _vm._v("Language\n\t\t\t\t\t\t\t\t\t\t\t"),
+                                    _c(
+                                      "span",
+                                      {
+                                        staticClass:
+                                          "fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0",
+                                      },
+                                      [
+                                        _vm._v(
+                                          "English\n\t\t\t\t\t\t\t\t\t\t\t"
+                                        ),
+                                        _c("img", {
+                                          staticClass:
+                                            "w-15px h-15px rounded-1 ms-2",
+                                          attrs: {
+                                            src: "assets/media/flags/united-states.svg",
+                                            alt: "",
+                                          },
+                                        }),
+                                      ]
+                                    ),
+                                  ]
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "menu-sub menu-sub-dropdown w-175px py-4",
+                              },
+                              [
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass:
+                                        "menu-link d-flex px-5 active",
+                                      attrs: { href: "account/settings.html" },
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "symbol symbol-20px me-4",
+                                        },
+                                        [
+                                          _c("img", {
+                                            staticClass: "rounded-1",
+                                            attrs: {
+                                              src: "assets/media/flags/united-states.svg",
+                                              alt: "",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v("English"),
+                                    ]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link d-flex px-5",
+                                      attrs: { href: "account/settings.html" },
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "symbol symbol-20px me-4",
+                                        },
+                                        [
+                                          _c("img", {
+                                            staticClass: "rounded-1",
+                                            attrs: {
+                                              src: "assets/media/flags/spain.svg",
+                                              alt: "",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v("Spanish"),
+                                    ]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link d-flex px-5",
+                                      attrs: { href: "account/settings.html" },
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "symbol symbol-20px me-4",
+                                        },
+                                        [
+                                          _c("img", {
+                                            staticClass: "rounded-1",
+                                            attrs: {
+                                              src: "assets/media/flags/germany.svg",
+                                              alt: "",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v("German"),
+                                    ]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link d-flex px-5",
+                                      attrs: { href: "account/settings.html" },
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "symbol symbol-20px me-4",
+                                        },
+                                        [
+                                          _c("img", {
+                                            staticClass: "rounded-1",
+                                            attrs: {
+                                              src: "assets/media/flags/japan.svg",
+                                              alt: "",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v("Japanese"),
+                                    ]
+                                  ),
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "menu-item px-3" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "menu-link d-flex px-5",
+                                      attrs: { href: "account/settings.html" },
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass:
+                                            "symbol symbol-20px me-4",
+                                        },
+                                        [
+                                          _c("img", {
+                                            staticClass: "rounded-1",
+                                            attrs: {
+                                              src: "assets/media/flags/france.svg",
+                                              alt: "",
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v("French"),
+                                    ]
+                                  ),
+                                ]),
+                              ]
+                            ),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-item px-5 my-1" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-link px-5",
+                              attrs: { href: "account/settings.html" },
+                            },
+                            [_vm._v("Account Settings")]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-item px-5" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-link px-5",
+                              attrs: {
+                                href: "authentication/layouts/corporate/sign-in.html",
+                              },
+                            },
+                            [_vm._v("Sign Out")]
+                          ),
+                        ]),
+                      ]
+                    ),
+                  ]),
+                ]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "app-main flex-column flex-row-fluid",
+              attrs: { id: "kt_app_main" },
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "d-flex flex-column flex-column-fluid" },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "app-content flex-column-fluid",
+                      attrs: { id: "kt_app_content" },
+                    },
+                    [
+                      _c("div", {
+                        staticClass: "app-container container-fluid",
+                        attrs: { id: "kt_app_content_container" },
+                      }),
+                    ]
+                  ),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "app-footer", attrs: { id: "kt_app_footer" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3",
+                    },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "text-gray-900 order-2 order-md-1" },
+                        [
+                          _c(
+                            "span",
+                            { staticClass: "text-muted fw-semibold me-1" },
+                            [_vm._v("2024©")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "a",
+                            {
+                              staticClass: "text-gray-800 text-hover-primary",
+                              attrs: {
+                                href: "https://debechlabs.co.ke",
+                                target: "_blank",
+                              },
+                            },
+                            [_vm._v("Debech Labs")]
+                          ),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "ul",
+                        {
+                          staticClass:
+                            "menu menu-gray-600 menu-hover-primary fw-semibold order-1",
+                        },
+                        [
+                          _c("li", { staticClass: "menu-item" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "menu-link px-2",
+                                attrs: { href: "#", target: "_blank" },
+                              },
+                              [_vm._v("About")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", { staticClass: "menu-item" }, [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "menu-link px-2",
+                                attrs: { href: "#", target: "_blank" },
+                              },
+                              [_vm._v("Support")]
+                            ),
+                          ]),
+                        ]
+                      ),
+                    ]
+                  ),
+                ]
+              ),
+            ]
+          ),
+        ]
+      ),
+    ])
   },
 ]
 render._withStripped = true
