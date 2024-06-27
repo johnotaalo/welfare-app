@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 use Stancl\Tenancy\Middleware\InitializeTenancyByDomain;
 use Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains;
 
@@ -26,6 +27,12 @@ Route::middleware([
 //    Route::get('/', function () {
 //        return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
 //    })->middleware("auth");
+    Route::middleware(['auth:sanctum'])->prefix('api')->group(function () {
+        //
+        Route::get('/test-api', function (Request $request) {
+            return $request->user();
+        });
+    });
 
     Auth::routes();
 
@@ -37,3 +44,5 @@ Route::middleware([
         return "This is the home for: " . tenant("name");
     })->middleware("auth");
 });
+
+

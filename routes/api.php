@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+Route::middleware(['sanctum.tenant'])->get("/test-api", function (){
+    dd("We are here");
+});
+
+Route::middleware(['sanctum.tenant', 'auth:sanctum'])->get('/user', function (Request $request) {
+    dd("We are here");
     return $request->user();
 });

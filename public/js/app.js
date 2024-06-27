@@ -5901,6 +5901,15 @@ __webpack_require__.r(__webpack_exports__);
     return {
       assetURL: window.Laravel.assetURL
     };
+  },
+  created: function created() {
+    axios.get('/sanctum/csrf-cookie').then(function (response) {
+      axios.get("/api/test-api").then(function (res) {
+        console.log(res);
+      })["catch"](function (error) {
+        console.log(error);
+      });
+    });
   }
 });
 

@@ -1054,6 +1054,17 @@ export default {
         return {
             assetURL: window.Laravel.assetURL
         }
+    },
+    created(){
+        axios.get('/sanctum/csrf-cookie').then(response => {
+            axios.get("/api/test-api")
+                .then(res => {
+                    console.log(res)
+                })
+                .catch(error => {
+                    console.log(error)
+                })
+        })
     }
 }
 </script>
