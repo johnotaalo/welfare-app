@@ -24,6 +24,12 @@ Route::get("/no-domain", function (){
 
 Auth::routes();
 
+Route::prefix("api")->group(function(){
+    Route::prefix("tenants")->group(function (){
+        Route::get("/", [\App\Http\Controllers\TenantController::class, "index"]);
+    });
+});
+
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/{any}', [App\Http\Controllers\AppController::class, 'index'])
     ->where('any', '.*')

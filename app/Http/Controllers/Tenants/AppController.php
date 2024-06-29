@@ -11,6 +11,6 @@ class AppController extends Controller
         $this->middleware("auth");
     }
     public function index(){
-        return view('layouts/app');
+        return view('tenants/layouts/app');
     }
 }
