@@ -3,8 +3,15 @@ import Dashboard from "./views/Dashboard.vue";
 require('../bootstrap')
 window.Vue = require('vue').default;
 import App from "./layouts/App.vue";
+import http from "../plugins/http";
+import store from "../store/index";
+
 // import router from "./router/index"
 import VueRouter from "vue-router";
+import Loading from "vue-loading-overlay";
+import 'vue-loading-overlay/src/css/index.css';
+
+
 // Tenant Routes
 import Tenant from "./views/tenants/Tenant.vue";
 import TenantIndex from "./views/tenants/Index.vue";
@@ -17,6 +24,7 @@ import UsersIndex from "./views/users/Index.vue";
 
 Vue.use(VueRouter);
 Vue.use(require('vue-moment'));
+Vue.component('loading', Loading)
 
 const router = new VueRouter({
     linkExactActiveClass: "active",
@@ -74,7 +82,8 @@ Vue.filter("fillNull", function (data) {
 })
 
 const app = new Vue({
-    el: '#app',
     components: {App},
-    router
-});
+    router,
+    store: store,
+    render: h => h(App)
+}).$mount('#app');

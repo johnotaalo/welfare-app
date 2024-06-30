@@ -29,6 +29,9 @@ Route::middleware([
 //    })->middleware("auth");
     Route::middleware(['auth:sanctum'])->prefix('api')->group(function () {
         //
+        Route::get("/user-details", function (Request $request){
+            return $request->user();
+        });
         Route::get('/test-api', function (Request $request) {
             return $request->user();
         });

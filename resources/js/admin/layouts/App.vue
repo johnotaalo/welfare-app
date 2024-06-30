@@ -1,5 +1,15 @@
 <template>
     <div>
+        <loading
+            :active.async="authLoading > 0"
+            :can-cancel="loader.canCancel"
+            :is-full-page="loader.fullScreen"
+            :opacity="loader.opacity"
+            color="blue">
+            <template v-slot:after>
+                <p>Loading...</p>
+            </template>
+        </loading>
         <!--begin::Header-->
         <div id="kt_app_header" class="app-header" data-kt-sticky="true" data-kt-sticky-activate="{default: false, lg: true}" data-kt-sticky-name="app-header-sticky" data-kt-sticky-offset="{default: false, lg: '300px'}">
             <!--begin::Header container-->
@@ -20,7 +30,7 @@
                         <!--end::Logo image-->
                         <!--begin::Section-->
                         <div class="d-none d-md-inline">
-                            <div class="fw-bold fs-3 text-gray-900">{{ greetingMessage }}, James <!-- Get the name logged in --></div>
+                            <div class="fw-bold fs-3 text-gray-900">{{ greetingMessage }}, <span v-if="isUserRetrieved">{{ user.name }}</span> <!-- Get the name logged in --></div>
                             <div class="fw-semibold text-gray-500">Manage all the tenants on Kistawi</div>
                         </div>
                         <!--end::Section-->
@@ -346,31 +356,28 @@
 
 <script>
 import MenuToolbar from "../components/MenuToolbar.vue";
+import {mapActions, mapState} from "vuex";
 
 export default {
     name: "App",
     components: {MenuToolbar},
     data(){
         return {
-
+            loader: {
+                fullScreen: true,
+                canCancel: false,
+                opacity: 1,
+            }
         }
     },
     created() {
-        axios.get('/sanctum/csrf-cookie').then(response => {
-            axios.get("/api/test-api")
-                .then(res => {
-                    console.log(res)
-                })
-                .catch(error => {
-                    console.log(error)
-                })
-        })
+        this.fetchUser()
     },
     mounted(){
-
     },
     computed: {
-        isCurrentRoute(){
+        ...mapState('auth', ['user', 'isUserRetrieved', 'authLoading']),
+            isCurrentRoute(){
             return this.$route.name
         },
         greetingMessage(){
@@ -383,6 +390,9 @@ export default {
                 return "Good Evening";
             }
         }
+    },
+    methods: {
+        ...mapActions('auth', ['fetchUser'])
     }
 }
 </script>

@@ -32,6 +32,10 @@ Route::prefix("api")->group(function(){
             return $request->user();
         });
 
+        Route::get("/user-details", function (Request $request){
+            return $request->user();
+        });
+
         Route::prefix("tenants")->group(function (){
             Route::get("/", [\App\Http\Controllers\TenantController::class, "index"]);
         });

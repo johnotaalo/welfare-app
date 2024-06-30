@@ -8,6 +8,11 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 import App from "./layouts/App.vue";
+import store from "./store";
+import Loading from "vue-loading-overlay";
+import 'vue-loading-overlay/src/css/index.css';
+
+Vue.component('loading', Loading)
 
 /**
  * The following block of code may be used to automatically register your
@@ -30,5 +35,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
-    components: {App}
+    components: {App},
+    store
 });
