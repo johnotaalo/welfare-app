@@ -11,8 +11,10 @@ import App from "./layouts/App.vue";
 import store from "./store";
 import Loading from "vue-loading-overlay";
 import 'vue-loading-overlay/src/css/index.css';
+import LottieVuePlayer from "@lottiefiles/vue-lottie-player";
 
 Vue.component('loading', Loading)
+Vue.use(LottieVuePlayer);
 
 /**
  * The following block of code may be used to automatically register your

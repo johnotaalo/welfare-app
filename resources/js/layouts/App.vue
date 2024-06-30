@@ -6,8 +6,8 @@
             :is-full-page="loader.fullScreen"
             :opacity="loader.opacity"
             color="blue">
-            <template v-slot:after>
-                <p>Loading...</p>
+            <template v-slot:default>
+                <lottie-vue-player src="/common/loader.json"></lottie-vue-player>
             </template>
         </loading>
         <!--begin::Header-->

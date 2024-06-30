@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@lottiefiles/vue-lottie-player": "^1.1.0",
         "vue-loading-overlay": "^3.4.3",
         "vue-moment": "^4.1.0",
         "vue-router": "^3.6.5",
