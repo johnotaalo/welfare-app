@@ -11,7 +11,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-/public/js/admin/admin.js
-/public/css/admin/admin.css
+/public/js/admin.js
+/public/css/admin.css
 /public/js/app.js
 /public/css/app.css
