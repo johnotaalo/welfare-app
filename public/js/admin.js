@@ -5207,6 +5207,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -28452,6 +28462,38 @@ var render = function () {
                                           attrs: { to: { name: "users" } },
                                         },
                                         [_vm._v("Users")]
+                                      ),
+                                    ],
+                                    1
+                                  ),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              {
+                                staticClass: "menu-item",
+                                class: { here: _vm.$route.name === "users" },
+                                attrs: {
+                                  "data-kt-menu-trigger":
+                                    "{default: 'click', lg: 'hover'}",
+                                  "data-kt-menu-placement": "bottom-start",
+                                  "data-kt-menu-offset": "-400,0",
+                                },
+                              },
+                              [
+                                _c("span", { staticClass: "menu-link" }, [
+                                  _c(
+                                    "span",
+                                    [
+                                      _c(
+                                        "router-link",
+                                        {
+                                          staticClass: "menu-title",
+                                          attrs: { to: { name: "users" } },
+                                        },
+                                        [_vm._v("Admin")]
                                       ),
                                     ],
                                     1

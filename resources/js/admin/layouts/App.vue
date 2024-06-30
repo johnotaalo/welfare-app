@@ -61,6 +61,16 @@
 
                                 </div>
                                 <!--end:Menu item-->
+                                <!--begin:Menu item-->
+                                <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" data-kt-menu-offset="-400,0" class="menu-item" :class="{'here': $route.name === 'users'}">
+                                    <!--begin:Menu link-->
+                                    <span class="menu-link">
+                                        <span><router-link class="menu-title" :to="{name:'users'}">Admin</router-link></span>
+                                    </span>
+                                    <!--end:Menu link-->
+
+                                </div>
+                                <!--end:Menu item-->
                             </div>
                             <!--end::Menu-->
                         </div>

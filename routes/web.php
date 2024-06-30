@@ -31,10 +31,10 @@ Route::prefix("api")->group(function(){
         Route::get('/test-api', function (Request $request) {
             return $request->user();
         });
-    });
 
-    Route::prefix("tenants")->group(function (){
-        Route::get("/", [\App\Http\Controllers\TenantController::class, "index"]);
+        Route::prefix("tenants")->group(function (){
+            Route::get("/", [\App\Http\Controllers\TenantController::class, "index"]);
+        });
     });
 });
 
