@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }} - Admin </title>
+
+    <script>
+        window.Laravel = {
+            baseURL: "<?php echo \Illuminate\Support\Facades\URL::to("/"); ?>",
+            assetURL: "{{ asset("") }}"
+        }
+    </script>
+
+    <!-- Scripts -->
+    <script src="/js/admin.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+
+    <link href="/admin/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="/admin/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!-- Styles -->
+    <link href="/css/admin.css" rel="stylesheet">
+</head>
+<body id="kt_app_body" data-kt-app-header-fixed-mobile="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="false" class="app-default">
+    <script>var defaultThemeMode = "light"; var themeMode; if ( document.documentElement ) { if ( document.documentElement.hasAttribute("data-bs-theme-mode")) { themeMode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if ( localStorage.getItem("data-bs-theme") !== null ) { themeMode = localStorage.getItem("data-bs-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", themeMode); }</script>
+    <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+        <div id="app">
+            <!--begin::Page-->
+            <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+                <app></app>
+            </div>
+        </div>
+    </div>
+
+
+    <!--begin::Javascript-->
+    <script>var hostUrl = "/backend/assets";</script>
+    <!--begin::Global Javascript Bundle(mandatory for all pages)-->
+    <script src="/admin/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="/admin/assets/js/scripts.bundle.js"></script>
+</body>
+</html>
