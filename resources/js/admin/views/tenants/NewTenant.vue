@@ -8,38 +8,22 @@
         </div>
         <!--end::Toolbar-->
 
-        <!--begin::Stepper-->
-        <div class="stepper stepper-links d-flex flex-column" id="kt_modal_create_campaign_stepper">
-            <!--begin::Nav-->
-            <div class="stepper-nav justify-content-center py-2">
-                <!--begin::Step 1-->
-                <div class="stepper-item me-5 me-md-15 current" data-kt-stepper-element="nav">
-                    <h3 class="stepper-title">Campaign Details</h3>
-                </div>
-                <!--end::Step 1-->
-                <!--begin::Step 2-->
-                <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
-                    <h3 class="stepper-title">Creative Uploads</h3>
-                </div>
-                <!--end::Step 2-->
-                <!--begin::Step 3-->
-                <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
-                    <h3 class="stepper-title">Audiences</h3>
-                </div>
-                <!--end::Step 3-->
-                <!--begin::Step 4-->
-                <div class="stepper-item me-5 me-md-15" data-kt-stepper-element="nav">
-                    <h3 class="stepper-title">Budget Estimates</h3>
-                </div>
-                <!--end::Step 4-->
-                <!--begin::Step 5-->
-                <div class="stepper-item" data-kt-stepper-element="nav">
-                    <h3 class="stepper-title">Completed</h3>
-                </div>
-                <!--end::Step 5-->
+        <div class="d-flex flex-column container">
+            <div class="justify-content-center">
+                <FormulateForm>
+                    <div class="d-flex flex-column mb-8 fv-row fv-plugins-icon-container">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-semibold mb-2">
+                            <span class="required">Target Title</span>
+                            <span class="ms-1" data-bs-toggle="tooltip" aria-label="Specify a target name for future usage and reference" data-bs-original-title="Specify a target name for future usage and reference" data-kt-initialized="1">
+										<i class="ki-outline ki-information-5 text-gray-500 fs-6"></i>
+									</span>
+                        </label>
+                        <!--end::Label-->
+                        <input type="text" class="form-control form-control-solid" placeholder="Enter Target Title" name="target_title">
+                        <div class="fv-plugins-message-container fv-plugins-message-container--enabled invalid-feedback"></div></div>
+                </FormulateForm>
             </div>
-            <!--end::Nav-->
-
         </div>
     </div>
 </template>

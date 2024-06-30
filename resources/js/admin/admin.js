@@ -11,6 +11,7 @@ import VueRouter from "vue-router";
 import Loading from "vue-loading-overlay";
 import 'vue-loading-overlay/src/css/index.css';
 import LottieVuePlayer from "@lottiefiles/vue-lottie-player";
+import VueFormulate from "@braid/vue-formulate";
 
 
 // Tenant Routes
@@ -26,6 +27,7 @@ import UsersIndex from "./views/users/Index.vue";
 Vue.use(VueRouter);
 Vue.use(require('vue-moment'));
 Vue.use(LottieVuePlayer);
+Vue.use(VueFormulate);
 Vue.component('loading', Loading)
 
 const router = new VueRouter({

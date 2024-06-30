@@ -12,9 +12,11 @@ import store from "./store";
 import Loading from "vue-loading-overlay";
 import 'vue-loading-overlay/src/css/index.css';
 import LottieVuePlayer from "@lottiefiles/vue-lottie-player";
+import VueFormulate from "@braid/vue-formulate";
 
 Vue.component('loading', Loading)
 Vue.use(LottieVuePlayer);
+Vue.use(VueFormulate);
 
 /**
  * The following block of code may be used to automatically register your
