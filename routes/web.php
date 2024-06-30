@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AppController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +26,13 @@ Route::get("/no-domain", function (){
 Auth::routes();
 
 Route::prefix("api")->group(function(){
+    Route::middleware(['auth:sanctum'])->group(function () {
+        //
+        Route::get('/test-api', function (Request $request) {
+            return $request->user();
+        });
+    });
+
     Route::prefix("tenants")->group(function (){
         Route::get("/", [\App\Http\Controllers\TenantController::class, "index"]);
     });
